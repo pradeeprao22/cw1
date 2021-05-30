@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+		<title>TickBook &mdash; Book tickets and travel around the World</title>
+		<meta name="description" content="Ticket Booking Website Now Book Your Travel Tickets In One Click">    
+    
+		<meta name="keywords" content="book tickets, flight tickets, bus tickets, train tickets, travel tickets, holidays">
+    
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans:300,400,700" rel="stylesheet">
+
+		<link rel="stylesheet" href="assets/css/bootstrap/bootstrap.css">
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <link rel="stylesheet" href="assets/fonts/ionicons/css/ionicons.min.css">
+    
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+    
+    <link rel="stylesheet" href="assets/fonts/flaticon/font/flaticon.css">
+
+    <link rel="stylesheet" href="assets/fonts/fontawesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/bootstrap-datepicker.css">
+    <link rel="stylesheet" href="assets/css/select2.css">
+    
+
+    <link rel="stylesheet" href="assets/css/helpers.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+	</head>
+  <!-- Custom Style -->
+  <style>
+    .bg-light {
+      background-color: #ECECEC!important;
+    }
+    .py-3 {
+      padding-top: 1rem!important;
+      padding-bottom: 1rem!important;
+    }
+  </style>
+	<body>
+    <nav class="navbar navbar-expand-lg navbar-dark group2-cw1_navbar tickbook-cw1_navbar" id="tickbook-cw1_nomad-navbar">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">TickBook</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#wpd-group2-cw1-tickbook-menu" aria-controls="wpd-group2-cw1-tickbook-menu" aria-expanded="false" aria-label="Toggle navigation">
+          <span><i class="ion-navicon"></i></span>
+        </button>
+        <div class="collapse navbar-collapse" id="wpd-group2-cw1-tickbook-menu">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+            <li class="nav-item"><a class="nav-link" href="about_us.html">About Us</a></li>
+            <li class="nav-item"><a class="nav-link" href="contact.html">Contact Us</a></li>
+            <li class="nav-item"><a class="nav-link" href="register.html">Signup | Login</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- END nav -->       
+
+    <section class="group2-cw1_nomad-cover overflow-hidden relative"  style="background-image: url('https://images.unsplash.com/photo-1437846972679-9e6e537be46e?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=2851&q=80'); " data-stellar-background-ratio="0.5"  id="section-home">
+      <div class="overlay"></div>
+      <div class="container">
+        <br>
+        <div class="row align-items-center">
+          <div class="col-md group2-cw1_animate">
+            <form action="#" class="wpd-group2-cw1-tickbook-form">
+              <div class="row">
+              <div class="col-md">
+                <label for="flights" class="mr-5"><input type="radio" id="flights" name="direction">  Flights</label>
+                <label for="trains" class="mr-5"><input type="radio" id="trains" name="direction">  Trains</label>
+                <label for="buses" class="mr-5"><input type="radio" id="buses" name="direction">  Buses</label>
+                <label for="cars" class="mr-5"><input type="radio" id="cars" name="direction">  Car Rent</label>
+              </div>
+              </div>
+              <div class="form-group">
+                <div class="row mb-3">
+                  <div class="col-md">
+                    <div class="form-group">
+                      <label for="id_label_single">From</label>
+
+                      <label for="id_label_single" style="width: 100%;">
+                        <select class="js-example-basic-single js-states form-control" id="id_label_single" style="width: 100%;">
+                          <option value="Australia">Australia</option>
+                          <option value="Japan">Japan</option>
+                          <option value="United States">United States</option>
+                          <option value="Brazil">Brazil</option>
+                          <option value="China">China</option>
+                          <option value="Israel">Israel</option>
+                          <option value="Philippines">Philippines</option>
+                          <option value="Malaysia">Malaysia</option>
+                          <option value="Canada">Canada</option>
+                          <option value="Chile">Chile</option>
+                          <option value="Chile">Zimbabwe</option>
+                        </select>
+                      </label>
+
+
+                    </div>
+                  </div>
+                  <div class="col-md">
+                    <div class="form-group">
+                      <label for="id_label_single2">To</label>
+                      <div class="wpd-nomad_select-wrap">
+                        <label for="id_label_single2" style="width: 100%;">
+                        <select class="js-example-basic-single js-states form-control" id="id_label_single2" style="width: 100%;">
+                          <option value="Australia">Australia</option>
+                          <option value="Japan">Japan</option>
+                          <option value="United States">United States</option>
+                          <option value="Brazil">Brazil</option>
+                          <option value="China">China</option>
+                          <option value="Israel">Israel</option>
+                          <option value="Philippines">Philippines</option>
+                          <option value="Malaysia">Malaysia</option>
+                          <option value="Canada">Canada</option>
+                          <option value="Chile">Chile</option>
+                          <option value="Chile">Zimbabwe</option>
+                        </select>
+                      </label>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- END row -->
+                <div class="row mb-5">
+                  <div class="col-md">
+                    <div class="form-group">
+                      <label for="wpd-group2-cw1-tickbook-date-departure">Departure</label>
+                      <div class="wpd-group2-cw1-tickbook-date-wrap">
+                        <span class="icon ion-calendar"></span> 
+                        <input type="text" id="wpd-group2-cw1-tickbook-date-departure" class="form-control" placeholder="departure">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md">
+                    <div class="form-group">
+                      <label for="wpd-group2-cw1-tickbook-date-arrival">Arrival</label>
+                      <div class="wpd-group2-cw1-tickbook-date-wrap">
+                        <span class="icon ion-calendar"></span> 
+                        <input type="text" id="wpd-group2-cw1-tickbook-date-arrival" class="form-control" placeholder="departure">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- END row -->
+                <div class="row">
+                  <div class="col-md">
+                    <label for="round" class="mr-5"><input type="radio" id="round" name="direction">  Round</label>
+                    <label for="oneway"><input type="radio" id="oneway" name="direction">  Oneway</label>
+                  </div>
+                  <div class="col-md">
+                    <a role="submit" href="list.html" class="btn btn-primary btn-block">Search for tickets</a>
+                  </div>
+                </div>
+              </div>
+            </form>
+          </div>
+          <br>
+          <div class="col-md">
+            <h2 class="heading mb-2  font-light group2-cw1_animate">Explore The World With Ease</h2>
+            <p>
+              We are constantly working to provide you with the greatest possible selection of travel options our goal is to 
+              provide travel services at low cost to everyone and to make it easier for everyone to experience the world.
+            </p>
+            <br>
+            <a href="profile.html" role="button" class="btn btn-primary p-3 mr-3 pl-5 pr-5 text-uppercase d-lg-inline d-md-inline d-sm-block d-block mb-3">User Account Demo</a> 
+            </p>
+          </div>
+        </div>
+      </div>
+    
+    </section>
+    <!-- END section -->
+
+    <section class="group2-tickbook_section" id="group2-cw1_services">
+      <div class="container">
+        <div class="row text-center mb-5">
+          <div class="col-md-12">
+            <h2 class="display-4 border-bottom wpd-group2-cw1-tickbook-section-heading">Top Services Around The World</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-3 col-md-6 mb-3">
+            <a href="#" class="group2-tickbook-thumb">
+              <img src="https://images.unsplash.com/photo-1562620669-98104534c6cd?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=934&q=80" alt="tick book image.com" class="img-fluid">
+              <div class="wpd-group2-cw1-tickbook-text">
+                <h3>New Zealand</h3>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-3 col-md-6 mb-3">
+            <a href="#" class="group2-tickbook-thumb">
+              <img src="https://images.unsplash.com/photo-1605639558947-6eb6dd528b0a?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=934&q=80" alt="tick book image.com" class="img-fluid">
+              <h3>Greenland</h3>
+            </a>
+          </div>
+          <div class="col-lg-3 col-md-6 mb-3">
+            <a href="#" class="group2-tickbook-thumb">
+              <img src="https://images.unsplash.com/photo-1584769205109-15c9bae19b9c?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=934&q=80" alt="tick book image.com" class="img-fluid">
+              <h3>Greece</h3>
+            </a>
+          </div>
+          <div class="col-lg-3 col-md-6 mb-3">
+            <a href="#" class="group2-tickbook-thumb">
+              <img src="https://images.unsplash.com/photo-1514749204155-24e484635226?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=934&q=80" alt="tick book image.com" class="img-fluid">
+              <h3>Norway</h3>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="group2-tickbook_section" id="section-feature-testimonial" style ="padding: 1em 0;">
+      <div class="container">
+        <div class="row justify-content-center mb-5">
+          <div class="col-md-12 text-center mb-5 group2-cw1_animate">
+            <h2 class="display-4 border-bottom wpd-group2-cw1-tickbook-section-heading">Testimonial</h2>
+            <blockquote class="">
+              <p class="lead mb-4">This is the best booking experience i have ever had.I got the best deal from the the Tickbook which saved me few bucks and sometime too.I highly recommend Tickbook for your travel booking. Go for it. </p>
+              <p class="wpd-group2-cw1-tickbook-author">
+                <a href="https://wpd-group2-cw1-tickbook.com/" target="_blank">
+                  <img src="https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png" alt="tick book image.com" class="rounded-circle">
+                  <span class="wpd-group2-cw1-tickbook-name">Raghavendra</span>
+                </a>
+              </p>
+            </blockquote>
+          </div>
+        </div>
+        
+      </div>
+    </section>
+    <!-- END section -->
+
+    <section class="group2-tickbook_section bg-light">
+      <div class="container">
+        <div class="row text-center mb-5 group2-cw1_animate">
+          <div class="col-md-12">
+            <h2 class="display-4 border-bottom wpd-group2-cw1-tickbook-section-heading">News</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6">
+
+            <div class="media wpd-group2-cw1-tickbook-media d-flex align-items-stretch mb-4 group2-cw1_animate">
+              <div class="wpd-group2-cw1-tickbook-media-image" style="background-image: url(assets/images/img_1.jpg)">
+              </div>
+              <div class="media-body">
+                <span class="text-uppercase">20th March 2021</span>
+                <h5 class="mb-3">What will travel look like when the pandemic is over?</h5>
+                <p>But with the rapid development of effective vaccines and increased distribution of those ... </p>
+                <p><a href="https://edition.cnn.com/travel/article/post-pandemic-travel-industry-changes/index.html">Read More</a></p>
+              </div>
+            </div>
+
+            <div class="media wpd-group2-cw1-tickbook-media d-flex align-items-stretch mb-4 group2-cw1_animate">
+              <div class="wpd-group2-cw1-tickbook-media-image" style="background-image: url(assets/images/img_2.jpg)">
+              </div>
+              <div class="media-body">
+                <span class="text-uppercase">March 22nd 2021</span>
+                <h5 class="mb-3">Destinations where women have made history</h5>
+                <p>This International Women's Day, let's remember how far we've come and where we'll go next.... </p>
+                <p><a href="https://www.washingtonpost.com/travel/tips/flights-drive-safety-vaccine-covid/">Read More</a></p>
+              </div>
+            </div>
+
+          </div>
+          <div class="col-md-6">
+            
+            <div class="media wpd-group2-cw1-tickbook-media d-flex align-items-stretch mb-4 group2-cw1_animate">
+              <div class="wpd-group2-cw1-tickbook-media-image" style="background-image: url(assets/images/img_4.jpg)">
+              </div>
+              <div class="media-body">
+                <span class="text-uppercase">Sun, Mar 21, 2021</span>
+                <h5 class="mb-3">Post covid travel: Which airlines require a vaccine to fly?</h5>
+                <p>THE PROSPECT of summer holidays is growing more and more each day as the UK slowly rids ....</p>
+                <p><a href="https://www.express.co.uk/travel/articles/1412943/Post-covid-travel-Which-airlines-require-vaccination-to-fly-EVG">Read More</a></p>
+              </div>
+            </div>
+
+            <div class="media wpd-group2-cw1-tickbook-media d-flex align-items-stretch mb-4 group2-cw1_animate">
+              <div class="wpd-group2-cw1-tickbook-media-image" style="background-image: url(assets/images/img_5.jpg)">
+              </div>
+              <div class="media-body">
+                <span class="text-uppercase">March 6th 2021</span>
+                <h5 class="mb-3">Brexit advice for travellers around the world</h5>
+                <p>Europe is the number one overseas destination for UK travellers and many people will be looking ...</p>
+                <p><a href="https://www.abta.com/tips-and-advice/brexit-advice-for-travellers">Read More</a></p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- END section -->
+
+    <section class="group2-tickbook_section">
+      <div class="container">
+        <div class="row text-center mb-5">
+          <div class="col-md-12">
+            <h2 class="display-4 border-bottom wpd-group2-cw1-tickbook-section-heading">Discounts</h2>
+          </div>
+        </div>
+        
+        <div class="row">
+          <div class="col-md-12">
+            <div class="owl-carousel js-owl-carousel-2">
+              <div>
+                <div class="media wpd-group2-cw1-tickbook-media d-block align-items-stretch mb-4">
+                  <img src="https://kinsta.com/wp-content/uploads/2018/05/kinsta-coupon.png" alt="tick book image" class="img-fluid">
+                  <div class="media-body">
+                    <h5 class="mb-3">15% off</h5>
+                    <p>Enjoy 15 % off on your first booking tickets. </p>
+                  </div>
+                </div>
+              </div>
+              <!-- END slide item -->
+
+              <div>
+                <div class="media wpd-group2-cw1-tickbook-media d-block align-items-stretch mb-4">
+                  <img src="https://kinsta.com/wp-content/uploads/2018/05/kinsta-coupon.png" alt="tick book image" class="img-fluid">
+                  <div class="media-body">
+                    <h5 class="mb-3">25% off</h5>
+                    <p>Avail 25% off on booking 5 or more tickets. </p>
+                  </div>
+                </div>
+              </div>
+              <!-- END slide item -->
+
+              <div>
+                <div class="media wpd-group2-cw1-tickbook-media d-block align-items-stretch mb-4">
+                  <img src="https://kinsta.com/wp-content/uploads/2018/05/kinsta-coupon.png" alt="tick book image" class="img-fluid">
+                  <div class="media-body">
+                    <h5 class="mb-3">40% off</h5>
+                    <p>Invite friends to get discounts upto 40% off. </p>
+                  </div>
+                </div>
+              </div>
+              <!-- END slide item -->
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- END section -->
+
+<footer class="group2-tickbook_section group2-cw1-border-top" style="padding: 2em 0;">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3">
+            <h3 class="wpd-nomad_font-18 mb-3">TickBook.com</h3>
+            <ul class="list-unstyled">
+              <li class="nav-item"><a href="help.html">Help</a></li>
+              <li class="nav-item"><a href="services.html">Services</a></li>
+              <li class="nav-item"><a href="about_us.html">About Us</a></li>
+              <li class="nav-item"><a href="contact.html">Contact Us</a></li>
+            </ul>
+          </div>
+          <div class="col-md-3">
+            <h3 class="wpd-nomad_font-18 mb-3">Social Media</h3>
+            <ul class="list-unstyled">
+              <li class="nav-item"><a href="#">Facebook</a></li>
+              <li class="nav-item"><a href="#">Twitter</a></li>
+              <li class="nav-item"><a href="#">Linkedin</a></li>
+              <div class="row col-sm-12">
+                <a href=""><i id="social-fb" class="fa fa-facebook-square fa-3x social"></i></a>
+                <a href=""><i id="social-tw" class="fa fa-twitter-square fa-3x social"></i></a>
+                 <a href=""><i id="social-gp" class="fa fa-google-plus-square fa-3x social"></i></a>
+                 <a href=""><i id="social-em" class="fa fa-envelope-square fa-3x social"></i></a>
+                </div> 
+            </ul>
+          </div>
+        </div>
+      </div>
+</footer>
+<div class="row col-md-12 py-3 bg-light justify-content-center">
+  <div class="col-md-6">
+    <span ><p>&copy; 2021. All Rights Reserved. Designed &amp; Developed by <a href="" target="_blank">G2 CW1 WPDAM 20-21</a></p>
+    </span>
+  </div>
+    <div class="col-md-3">
+      <p class="pull-right">Demo Images: <a href="https://unsplash.com/" target="_blank">Unsplash</a>, <a href="https://iconfinder.com/" target="_blank">IconFinder</a></p>
+    </div>
+</div>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/owl.carousel.min.js"></script>
+    <script src="assets/js/bootstrap-datepicker.js"></script>
+    <script src="assets/js/jquery.waypoints.min.js"></script>
+    <script src="assets/js/jquery.easing.1.3.js"></script>
+    <script src="assets/js/select2.min.js"></script>
+    <script src="assets/js/main.js"></script>
+  <!--copyrights-->
+
+	</body>
+</html>
